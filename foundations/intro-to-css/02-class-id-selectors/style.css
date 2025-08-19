@@ -1,0 +1,19 @@
+.number {
+    background: #ffc6c6;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+#specific-second {
+    color: blue;
+    font-size: 32px;
+}
+
+.number.three {
+    font-size: 24px;
+}
+
+#specific-fourth {
+    background: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
