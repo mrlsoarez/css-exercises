@@ -15,11 +15,38 @@ body {
   justify-content: center;
 }
 
+.modal, .section-1, .section-2, .section-3 {
+  display: flex; 
+}
+
+.modal > div {
+  height: 100%;
+}
+
 .modal {
-  background: white;
+  align-items: center;
+  gap: 10px;
   width: 480px;
+  height: 170px;
   border-radius: 10px;
+  padding: 20px;
+  background: white;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.section-1 {
+  align-items: start;
+}
+
+.section-2, 
+.section-3 {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-2 .header {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .icon {
