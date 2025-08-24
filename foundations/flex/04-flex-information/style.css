@@ -12,6 +12,34 @@ img {
   font-weight: 900;
 }
 
+.container , ul , li {
+  display: flex;
+}
+
+.container, li {
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  justify-content: center;
+  list-style-type: none;
+  height: 200px;
+  width: 80%;
+  padding: 0px;
+}
+
+ul > li {
+  justify-content: center;
+  flex: 1 1 0;
+}
+
+ul > li > p {
+  text-align: center;
+  font-weight: 100;
+  color: rgb(53, 53, 53);
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
